@@ -62,7 +62,7 @@ plt.figure()
 plt.semilogy(cdvals1, norm_vals1, 'o', label="b=200", markersize=1)
 plt.semilogy(cdvals2, norm_vals2, 'o', label="b=2000", markersize=1)
 plt.xlabel(r"t ($\mu s$)")
-plt.ylabel("N")
+plt.ylabel(r"N/N_{tot}")
 plt.legend()
 plt.savefig('ensembleBoth.eps')
 
